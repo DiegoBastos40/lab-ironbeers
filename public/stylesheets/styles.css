@@ -5,3 +5,120 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+} 
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+img{
+   width: 100%;
+}
+
+main {
+   background: #F7F9F9;
+}
+.index-container {
+   max-width: 40%;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+   padding-top: 20px;
+}
+.index-container a {
+    margin-top: 20px;
+    background-color: #1b37b3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+    
+
+}
+.index-container a:hover {
+    margin-top: 20px;
+    background-color: #4455a1; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+
+}
+
+footer {
+   height: 60px;
+   background: #0A2C42;
+   display: flex;
+   width: 100%;
+   align-items: stretch;
+}
+footer p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer p span {
+   color: #F7F9F9;
+   padding-left: 25px;
+   align-items: center;
+}
+.beers-section{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 90%;
+   margin: auto;
+}
+.card-beer{
+   width: 33%;
+   padding: 20px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+}
+.card-beer > header{
+   display: flex;
+   flex-direction: column;
+}
+.card-beer > header h4{
+   margin-bottom: 5px;
+}
+.card-beer > header > p{
+   color: rgba(145, 145, 145, 0.481);
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+.card-beer > header > div{
+   text-align: center;
+}
+.card-beer > img{
+   max-height: 120px;
+   width:auto;
+}
+.card-beer .desc-beers{
+   font-size: 12px;
+   text-align: justify;
+   margin-bottom: 20px;
+}
+.random-beer{
+   display: flex;
+}
+.random-beer div img{
+   max-width: 200px;
+   max-height: 300px;
+   width: auto;
+}
