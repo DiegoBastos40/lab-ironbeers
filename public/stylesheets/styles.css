@@ -112,14 +112,14 @@ footer p span {
 
 .random-beer{
    display: block;
-   margin-left: 600px;
+   margin-left: 400px;
    
    
   
 }
 .random-beer div img{
    max-width: 300px;
-   max-height: 500px;
+   max-height: 300px;
   
    
 }
@@ -128,4 +128,11 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 
+
+}
+.prandom{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 60%;
 }
